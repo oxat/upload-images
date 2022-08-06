@@ -1,0 +1,5 @@
+a.sm2_button{position:relative;display:inline-block;width:18px;height:18px;text-indent:-9999px;overflow:hidden;vertical-align:middle;border-radius:2px;margin-top:-1px;-webkit-transition-property:hover;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out 0s;-o-transition-property:background-color;-o-transition-duration:.15s;*text-indent:0px;*line-height:99em;*vertical-align: top;}
+a.sm2_button:focus{outline:none;}
+a.sm2_button,a.sm2_button.sm2_paused:hover{background-color:#39c;background-image:url(/slim/img/play.png); background-image:url(/slim/img//play.png); background-image:none , url(/slim/img//play.png); background-size:9px 10px;*background-image:url(/slim/img//play.png); background-repeat:no-repeat;background-position:5px 50%;*background-position:5px 4px}
+a.sm2_button:hover,a.sm2_button.sm2_playing,a.sm2_button.sm2_playing:hover{background-color:#c33}
+a.sm2_button.sm2_playing,a.sm2_button.sm2_playing:hover{-moz-transform:rotate(90deg);-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg)}a.sm2_button.sm2_paused,a.sm2_button.sm2_paused:hover{background-color:#666}
